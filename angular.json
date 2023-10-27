@@ -24,13 +24,28 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "scripts": [
+              "src/assets/assets/lib/jquery/jquery.min.js",
+              "src/assets/assets/lib/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js",
+              "src/assets/assets/lib/jquery.flot/jquery.flot.js",
+              "src/assets/assets/lib/jquery.flot/jquery.flot.stack.js",
+              "src/assets/assets/lib/jquery.flot/jquery.flot.resize.js",
+              "src/assets/assets/lib/jquery.flot/jquery.flot.threshold.js",
+              "src/assets/assets/lib/chart.js/chart.min.js",
+              "src/assets/assets/lib/jqvmap/jquery.vmap.min.js",
+              "src/assets/assets/lib/jqvmap/maps/jquery.vmap.usa.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/bootstrap.min.css",
-              "src/assets/css/fontawesome.min.css",
-              "src/assets/css/magnific-popup.min.css"
-            ],
-            "scripts": []
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/assets/lib/remixicon/fonts/remixicon.css",
+              "src/assets/assets/lib/jqvmap/jqvmap.min.css",
+              "src/assets/assets/css/style.min.css"
+            ]
+            
           },
           "configurations": {
             "production": {
@@ -87,7 +102,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/assets/css/style.min.css"
             ],
             "styles": [
               "src/styles.css"
